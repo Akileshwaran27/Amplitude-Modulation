@@ -1,5 +1,3 @@
-# Amplitude-Modulation
-
 EXP NO: 1	GENERATION AND DETECTION OF AM
 
 AIM:
@@ -75,8 +73,23 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 •	Verify the generated waveform using Tabulation and Model Waveform
 
 Program
-
-
+```
+Am=2.15;
+fm=447;
+Ac=3.762;
+fc=4470;
+fs=44700;
+t=0:1/fs:2/fm;
+em=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,em); 
+ec=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,ec);
+eam=(Ac+em).*cos(2*3.14*fc*t);
+subplot(3,1,3);
+plot(t,eam);
+```
 
 Output Waveform
 
@@ -84,13 +97,20 @@ Output Waveform
 
 
 
+
+
+<img width="744" height="597" alt="Screenshot 2026-08-18 210643" src="https://github.com/user-attachments/assets/1274284e-6490-4dba-88cd-c19e8df7e17a" />
+
+
+
 TABULATION:
 
+<img width="992" height="1600" alt="image" src="https://github.com/user-attachments/assets/d1858931-f9e7-4451-8f6f-b23480f9509d" />
 
 
 Calculation
-1.	ma (Theory) = am/ac =
-2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =
+1.	ma (Theory) = am/ac = 0.57
+2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) = 0.55
 
 
 MODEL GRAPH

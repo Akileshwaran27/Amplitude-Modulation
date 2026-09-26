@@ -91,21 +91,12 @@ subplot(3,1,3);
 plot(t,eam);
 ```
 
-Output Waveform
-
-
-
-
-
-
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5c40be8c-9769-43b5-acf9-3bafbf2be1ec" />
-
 
 
 
 TABULATION:
 
-<img width="992" height="1600" alt="image" src="https://github.com/user-attachments/assets/d1858931-f9e7-4451-8f6f-b23480f9509d" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5c40be8c-9769-43b5-acf9-3bafbf2be1ec" />
 
 
 Calculation

@@ -98,8 +98,8 @@ Output Waveform
 
 
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5c40be8c-9769-43b5-acf9-3bafbf2be1ec" />
 
-<img width="744" height="597" alt="Screenshot 2026-08-18 210643" src="https://github.com/user-attachments/assets/1274284e-6490-4dba-88cd-c19e8df7e17a" />
 
 
 
